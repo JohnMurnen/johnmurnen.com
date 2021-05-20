@@ -81,3 +81,52 @@ img {
     margin-left: 30px;
     margin-right: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    * {
+      font-size: 1.1rem;
+    }
+    
+    .header {
+        height: 150px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header li {
+        display: block;
+        text-align: center;
+    }
+
+    .firstTwo {
+        border-right: none;
+        border-bottom: 2px solid #eca600;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    p, h2, h3, main li {
+        margin-bottom: 10px;
+    }
+
+    .section, #contact, #aboutMe {
+        margin-top: 30px;
+        margin-bottom: 8px;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #linkedin, #mail {
+        height: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+
+}
