@@ -111,6 +111,13 @@ img {
     font-weight: bold;
 }
 
+button {
+    background-color: #eca600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
 @media only screen and (orientation: portrait) {
    
     h2 {
