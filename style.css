@@ -4,6 +4,26 @@
     margin: 0 auto;
 }
 
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+main li {
+    font-size: 18px;
+}
+
 body {
     background-color: #fafaf0;
 }
@@ -29,6 +49,10 @@ p, h2, h3, main li {
     background-color: #990000;
     color: white;
     align-items: center;border: 6px solid #eca600;
+}
+
+.header h1 {
+    font-size: 2rem;
 }
 
 .section {
@@ -73,7 +97,7 @@ img {
 }
 
 #headshot {
-    height: 350px;
+    width: 350px;
 }
 
 #linkedin, #mail {
@@ -82,50 +106,62 @@ img {
     margin-right: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-    * {
-      font-size: 1.1rem;
+@media only screen and (orientation: portrait) {
+   
+    h2 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 400px;
     }
     
     .header {
-        height: 150px;
+        height: 300px;
     }
 
     .header h1 {
-        font-size: 1.5rem;
+        margin-left: 30px;
+        font-size: 60px;
     }
 
     .header li {
         display: block;
         text-align: center;
+        font-size: 60px;
     }
 
     .firstTwo {
         border-right: none;
-        border-bottom: 2px solid #eca600;
+        border-bottom: 4px solid #eca600;
         padding-bottom: 2px;
         padding-top: 2px;
     }
 
     p, h2, h3, main li {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .section, #contact, #aboutMe {
-        margin-top: 30px;
-        margin-bottom: 8px;
+        margin-top: 50px;
+        margin-bottom: 12px;
     }
 
-    img {
+    #headshot {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 85%;
     }
 
     #linkedin, #mail {
-        height: 75px;
-        margin-left: 10px;
-        margin-right: 10px;
+        height: 200px;
+        margin-left: 30px;
+        margin-right: 50px;
         display: inline-block;
     }
 
